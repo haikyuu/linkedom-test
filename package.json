@@ -1,0 +1,22 @@
+{
+  "name": "linkedom-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "uvu src/__tests__ -r esbuild-register -i src/__tests__/setup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uvu": "^0.5.1"
+  },
+  "dependencies": {
+    "esbuild": "^0.8.43",
+    "esbuild-register": "^2.0.0",
+    "linkedom": "^0.3.14",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
