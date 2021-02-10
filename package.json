@@ -15,7 +15,7 @@
   "dependencies": {
     "esbuild": "^0.8.43",
     "esbuild-register": "^2.0.0",
-    "linkedom": "^0.3.14",
+    "linkedom": "^0.4.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
