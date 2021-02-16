@@ -4,18 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "uvu src/__tests__ -r esbuild-register -i src/__tests__/setup"
+    "test:uvu": "uvu src/__tests__ -r esbuild-register -i src/__tests__/setup",
+    "test:jest": "jest src/**",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-react": "^7.12.13",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-typescript": "^7.12.16",
+    "@types/jest": "^26.0.20",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
     "uvu": "^0.5.1"
   },
   "dependencies": {
     "esbuild": "^0.8.43",
     "esbuild-register": "^2.0.0",
-    "linkedom": "^0.4.1",
+    "linkedom": "^0.4.24",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
