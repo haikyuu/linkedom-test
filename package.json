@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:uvu-linkedom-esbuild": "uvu src/__tests__ -r esbuild-register -i src/__tests__/setup",
+    "test:uvu-linkedom-esbuild": "uvu src/__tests__ -r esbuild-register",
     "test:jest-jsdom-babel": "jest"
   },
   "keywords": [],
